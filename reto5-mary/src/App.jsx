@@ -1,12 +1,24 @@
 import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import { primaryRoute } from './routes/primaryRoute';
 import Footer from './components/sections/Footer';
+import { primaryRoute } from './routes/primaryRoute';
+
 
 function App() {
+  const credits = {
+    year: new Date().getFullYear(),
+    author: 'mary luz'
+  };
   return (
+    <>
+    
+    
     <RouterProvider router={primaryRoute} />,
-    <Footer />
+
+    <Footer credits={credits}/>,
+    
+
+    </>
   );
 }
 
