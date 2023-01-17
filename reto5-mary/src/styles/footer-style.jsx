@@ -1,16 +1,15 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
-margin: -100px;
+padding: 10px 20px;
+margin: 10px;
 bottom:0;
-background: black;
-position: absolute;
+background: grey;
 bottom: 0;
 width: 100%;
 
 
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
 	padding: 70px 30px;
 }
 `;
@@ -21,25 +20,25 @@ export const Container = styled.div`
 	justify-content: center;
 	max-width: 1000px;
 	margin: 0 auto;
-    background: blue;
+    background: green;
 `
 
 export const Column = styled.div`
 display: flex;
 flex-direction: column;
 text-align: left;
-margin-left: 60px;
+margin-left: 30px;
 `;
 
 export const Row = styled.div`
 display: grid;
 grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+						minmax(135px, 1fr));
 grid-gap: 20px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
-						minmax(200px, 1fr));
+						minmax(100px, 1fr));
 }
 `;
 
