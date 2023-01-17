@@ -10,7 +10,8 @@ function FigureExample() {
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/417.png"
       />
       <Figure.Caption>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veritatis natus maiores voluptatem ratione aut. Delectus dolor explicabo, quidem necessitatibus debitis hic quam? Rem iure earum provident praesentium veritatis et!
+        
+        lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veritatis natus maiores voluptatem ratione aut. Delectus dolor explicabo, quidem necessitatibus debitis hic quam? Rem iure earum provident praesentium veritatis et!
       </Figure.Caption>
     </Figure>
   );
